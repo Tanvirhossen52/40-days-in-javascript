@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+
+    
+}
+/* #1dcd9f */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #03030a;
+    color: white;
+  }
+
+  .container{
+    width: 300px;
+    padding: 20px;
+   
+    border-radius: 10px;
+    background-color: rgb(11, 11, 12);
+    border: 1px solid #1dcd9f ;
+    box-shadow: 0px 0px 20px rgb(15, 16, 29);
+    
+  }
+
+  .inputbox{
+
+    color: black;
+   padding: 10px 10px;
+   border-radius: 4px;
+   background-color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-block: 10px;
+ 
+  }
+
+  .inputbox span{
+ cursor: pointer;
+  }
+
+  #paasBox{
+    border: none;
+    outline: none;
+
+  }
+
+  .inputSlder{
+    width: 100%;
+    
+  }
+
+ 
+  input{
+    accent-color: #1dcd9f;
+  }
+
+
+
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block:16px ;
+    font-size: 14px;
+  }
+
+  .genbtn{
+    width: 100%;
+    padding: 10px;
+    background-color: #1dcd9f;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .genbtn:hover{
+    background-color: #0eac82;
+  }

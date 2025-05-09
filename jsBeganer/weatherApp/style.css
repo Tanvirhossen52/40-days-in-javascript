@@ -1,0 +1,143 @@
+ *{
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+ }
+ 
+ body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    linear-gradient(
+        to right,
+        #748cf1 50%,
+        #3e3b51 50%
+    )
+    ;
+ }
+ .container{
+    width: 300px;
+    background-color: #6c64fb;
+    padding: 20px;
+    border-radius: 10px;
+    
+ }
+
+ .main{
+   width:90%;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(180, 180, 245);
+   padding: 10px;
+   border-radius: 5px;
+ }
+
+ .main input{
+   background-color: transparent;
+   
+  
+ }
+
+ .main i{
+  padding: 8px;
+  background-color: #24142c;
+  color: white;
+  border-radius: 50%;
+  
+ 
+}
+
+.fotter {
+ display: flex;
+ flex-direction: column;
+}
+
+.fotter img {
+  width: 200px;
+  filter: drop-shadow(1px 8px 17px #525252);
+
+}
+.fotter p {
+  font-size: 20px;
+}
+.imgSection{
+  display: flex;
+ flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.imgSection span {
+  font-size: 30px;
+  font-weight: 800;
+ 
+}
+
+.ditails{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+.cloud , .wind{
+  padding: 10px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    #24142c 50%,
+    #9e616b 50%
+)
+; 
+}
+
+.ditails ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+.ditails li{
+  background-color: #f78a55;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 10px;
+  background-image: linear-gradient(
+      to bottom,
+      transparent 50%,
+      #0003 50%
+  );
+  font-weight: bold;
+  font-size: small;
+}
+.ditails ul li i{
+  font-size: 2em;
+  margin: 20px 0;
+  display: block!important;
+}
+.ditails li:nth-child(2){
+  background-color: #b56291;
+}
+.ditails li:nth-child(3){
+  background-color: #48567b;
+}
+
+
+.erorPage  {
+  display: none;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+
+}
+.erorPage img {
+  width: 200px;
+
+}

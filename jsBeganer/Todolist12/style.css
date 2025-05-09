@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(213, 242, 247);
+    color: #000;
+  }
+
+  #inputText , #addBtn{
+    margin-block: 10px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  #addBtn{
+    background-color: #26f726;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 8px;
+    
+  }
+
+  ul li{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+  }
+
+  ul li p{
+    flex-grow: 1;
+  }
+
+  .btn{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+
+  }
+  .remove{
+    color: #ec1b1b;
+    
+  }
+
+  .edit{
+    color:#26f726;
+    margin-right: 8px;
+  }
